@@ -1,3 +1,5 @@
+require 'redmine_mail_handler_clean_body_regexp_patch'
+
 Redmine::Plugin.register :redmine_mail_handler_clean_body_regexp do
   name 'Redmine Mail Handler Clean Body Regexp plugin'
   author 'Andrew Hills'
