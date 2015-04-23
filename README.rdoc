@@ -1,3 +1,7 @@
-= redmine_mail_handler_clean_body_regexp
+= Redmine Mail Handler Clean Body with Regular Expressions Plugin
 
-Description goes here
+This plugin has a long name and a short list of features. It changes the
+behavior of the incoming email body cleaner to remove text based on
+regular expressions, rather than simple text matching. Use the same text
+box in Redmine's settings, but add one regular expression per line.
+
