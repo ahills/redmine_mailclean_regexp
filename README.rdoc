@@ -5,3 +5,5 @@ behavior of the incoming email body cleaner to remove text based on
 regular expressions, rather than simple text matching. Use the same text
 box in Redmine's settings, but add one regular expression per line.
 
+The regular expressions are each joined into one larger expression, à la:
+    ^[> ]*(LINE1|LINE2...)\s*[\r\n].*
