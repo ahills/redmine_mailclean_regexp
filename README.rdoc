@@ -7,3 +7,5 @@ box in Redmine's settings, but add one regular expression per line.
 
 The regular expressions are each joined into one larger expression, à la:
     ^[> ]*(LINE1|LINE2...)\s*[\r\n].*
+
+Copyright © 2015 Andrew Hills. See LICENSE for details.
